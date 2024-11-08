@@ -1,0 +1,31 @@
+.employee-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+ 
+  
+  .employee-image img {
+    max-width: 250px; /* Adjust the width as needed */
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .employee-info {
+    flex: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .employee-details {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .employee-image img {
+      max-width: 100%;
+      max-height: 200px;
+    }
+  }
+  

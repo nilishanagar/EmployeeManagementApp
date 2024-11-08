@@ -1,0 +1,12 @@
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+.navbar .nav-link, .navbar .navbar-text {
+    color: #333;
+}
+.navbar .nav-link:hover {
+    color: #007bff;
+}
